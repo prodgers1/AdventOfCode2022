@@ -19,4 +19,4 @@ maxCalories.append(current)
 
 print(sorted(maxCalories, reverse=True)[0])
 top3 = sum(sorted(maxCalories, reverse=True)[0:3])
-print(sum(top3))
+print(top3)
